@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A17A4C02BE3D57900BDF92A /* TEA+makeAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17A4BF2BE3D57900BDF92A /* TEA+makeAdapter.swift */; };
 		3AEB27CC2BE2A506003225A4 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEB27CB2BE2A506003225A4 /* App.swift */; };
 		3AEB27CE2BE2A506003225A4 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEB27CD2BE2A506003225A4 /* ExampleView.swift */; };
 		3AEB27D02BE2A507003225A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AEB27CF2BE2A507003225A4 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A17A4BF2BE3D57900BDF92A /* TEA+makeAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TEA+makeAdapter.swift"; sourceTree = "<group>"; };
 		3AEB27C82BE2A506003225A4 /* ELM+ASYNC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ELM+ASYNC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AEB27CB2BE2A506003225A4 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		3AEB27CD2BE2A506003225A4 /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				3AEB27DB2BE2A576003225A4 /* TEA.swift */,
+				3A17A4BF2BE3D57900BDF92A /* TEA+makeAdapter.swift */,
 				3AEB27DF2BE2C28E003225A4 /* ViewAdapter.swift */,
 			);
 			path = Architecture;
@@ -166,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AEB27CE2BE2A506003225A4 /* ExampleView.swift in Sources */,
+				3A17A4C02BE3D57900BDF92A /* TEA+makeAdapter.swift in Sources */,
 				3AEB27DC2BE2A576003225A4 /* TEA.swift in Sources */,
 				3AEB27CC2BE2A506003225A4 /* App.swift in Sources */,
 				3AEB27E02BE2C28E003225A4 /* ViewAdapter.swift in Sources */,

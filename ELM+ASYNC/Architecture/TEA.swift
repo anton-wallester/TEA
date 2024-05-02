@@ -2,9 +2,10 @@ import Combine
 
 // TEA means The ELM Architecture
 public enum TEA {
+    
     public static func start<State, Event, Effect, Environment>(
         initialState: State,
-        environment: Environment,
+        environment: Environment, // all dependencies and routing
         feedback: @escaping (AsyncStream<State>) -> AsyncStream<Event>,
         transform: @escaping (State, Event, Environment) async -> Effect,
         apply: @escaping (inout State, Effect) async -> State

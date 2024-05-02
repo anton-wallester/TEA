@@ -22,7 +22,7 @@ enum ExampleEffect {
     case newValue(Int)
 }
 
-enum Reducer {
+enum ExampleReducer {
     static func transform(
         state: ExampleState,
         event: ExampleEvent,
